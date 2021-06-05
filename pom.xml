@@ -45,7 +45,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub OWNER Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/kmayer10/epsilon</url>
+			<url>https://maven.pkg.github.com/kul-samples/sample-java-app</url>
 		</repository>
 	</distributionManagement>
 
