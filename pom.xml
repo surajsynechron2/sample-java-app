@@ -4,7 +4,7 @@
   <groupId>com.kul-samples.demo</groupId>
   <artifactId>indianstates</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>Indian States Demo</name>
   <url>https://thinknyx.com</url>
 	
