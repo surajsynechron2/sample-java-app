@@ -65,6 +65,9 @@ pipeline {
 			}
         }
         stage('Deploy on Production') {
+			when {
+				branch 'main'
+			}
             steps {
                 echo '[INFO] Executing Deployment on Test Environment'
                 echo '------[INFO] Stopping the Application'
