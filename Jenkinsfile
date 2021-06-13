@@ -10,7 +10,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/kul-samples/sample-java-app.git'
+                //Not needed this step for GitHub Orgnization
+                //git 'https://github.com/kul-samples/sample-java-app.git'  
 
                 // Run Maven on a Unix agent.
                 sh "mvn clean package"
