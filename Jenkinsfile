@@ -64,5 +64,14 @@ pipeline {
 				}
 			}
         }
+        stage('Deploy on Production') {
+            steps {
+                echo '[INFO] Executing Deployment on Test Environment'
+                echo '------[INFO] Stopping the Application'
+                echo '------[INFO] Uninstalling the Application'
+                echo '------[INFO] Instaling New Version of the Application'
+                echo '------[INFO] Starting the Application'
+            }
+        }
     }
 }
