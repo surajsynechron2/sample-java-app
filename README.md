@@ -5,3 +5,5 @@ This is Sample Java Application
 - who is commiting here 
 - Hi This is `Kulbhushan`
 - Committing to demo for auto trigger with multiple commits
+
+- hi second commit
