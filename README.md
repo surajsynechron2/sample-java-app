@@ -4,3 +4,4 @@ This is Sample Java Application
 - Commit for Auto trigger on the basis of `Polling`
 - who is commiting here 
 - Hi This is `Kulbhushan`
+- Committing to demo for auto trigger with multiple commits
