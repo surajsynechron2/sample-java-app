@@ -13,3 +13,8 @@ Build and Package:
       executable: maven_3.6.3
       jdk: JDK
       goal: clean package
+  artifacts:
+  - name: IndianState
+    location: target/
+    pattern: "*.war"
+    required: true
