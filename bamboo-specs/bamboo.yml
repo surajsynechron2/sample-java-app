@@ -1,0 +1,15 @@
+---
+version: 2
+plan:
+  project-key: KUL
+  name: bamboo-specs
+  key: BS
+stages:
+  - Build:
+    - Build and Package
+Build and Package:
+  tasks:
+  - maven:
+    executable: maven_3.6.3
+    jdk: JDK
+    goal: clean package
