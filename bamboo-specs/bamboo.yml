@@ -10,6 +10,6 @@ stages:
 Build and Package:
   tasks:
   - maven:
-    executable: maven_3.6.3
-    jdk: JDK
-    goal: clean package
+      executable: maven_3.6.3
+      jdk: JDK
+      goal: clean package
