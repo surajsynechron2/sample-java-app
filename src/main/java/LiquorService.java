@@ -4,7 +4,6 @@ import java.util.List;
 public class LiquorService {
 
     public List<String> getAvailableBrands(LiquorType type){
-        
         List<String> brands = new ArrayList<String>();        
         if(type.equals(LiquorType.HARYANA)){
             brands.add("Faridabad");
